@@ -62,15 +62,6 @@ class Hr extends Component {
         )
     }
 }
-
-Hr.propTypes = {
-    lineStyle: PropTypes.shape({}),
-    text: PropTypes.string,
-    marginLeft: PropTypes.number,
-    marginRight: PropTypes.number,
-    textStyle: PropTypes.shape({})
-};
-
 Hr.defaultProps = {
     marginLeft: 8,
     marginRight: 8
