@@ -93,14 +93,6 @@ var Hr = function (_Component) {
     return Hr;
 }(_react.Component);
 
-Hr.propTypes = {
-    lineStyle: _propTypes2.default.shape({}),
-    text: _propTypes2.default.string,
-    marginLeft: _propTypes2.default.number,
-    marginRight: _propTypes2.default.number,
-    textStyle: _propTypes2.default.shape({})
-};
-
 Hr.defaultProps = {
     marginLeft: 8,
     marginRight: 8
